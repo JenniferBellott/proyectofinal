@@ -1,3 +1,2 @@
-
-    alert("Bienvenidos a mi página!!");
+alert("Bienvenidos a mi página!!");
     
