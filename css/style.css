@@ -10,22 +10,7 @@ body {
    text-shadow: 2px 2px white, 2px 2px yellow;
    text-align: center;
  }
- h1.DURLO{
-color: black;
-background-color: rgb(243, 227, 9);
-padding: 20px;
-margin: 0;
-text-align: center;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
- }
- h1.CRACKS{
-   color: yellow;
-   background-color: black;
-   padding: 20px;
-   margin:0px ;
-   text-align: center;
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
- }
+ 
  h4{
    font-family:cursive;
    text-align: center;
