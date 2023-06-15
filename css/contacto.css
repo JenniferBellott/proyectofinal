@@ -54,10 +54,16 @@ div.fondo {
    height: 100vh;
    background-size: cover;
    background-position: center ;
-   box-shadow: 0 0 grey;
+   box-shadow: 0 0 grey;}
 
+main{
+    padding-right: 300px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
 
- }
  header{ color: black;
     padding: 10px;
     margin-left: auto;
@@ -86,28 +92,27 @@ header h4{
     display: flex;
     gap: 50px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #130f50;
-    text-shadow: 1px 1px rgb(160, 156, 156) ;
+    color: #f8f8f8;
+    text-shadow: 1px 1px rgb(19, 18, 18) ;
     font-size: 18px;
     margin-left: 100px;
 }
 
 .datos{
-   
-    margin-left: 200px;
-    padding: 10px;
-}
-.datos p{
-font-size: 20px;
-background-color:rgb(237, 245, 128); 
+  
+   padding-bottom: 10px;
+   padding-left: 50px;
+   padding-right: 30px;
+   background-color:rgb(139, 139, 133); 
+   border-radius: 20px;
 
 }
 
 .datos ul{
     font-size: 18px;
-    background-color: rgb(237, 245, 128);
     text-align:left;
     box-shadow: none;
+    
 
 }
 .formulario p{
@@ -115,7 +120,12 @@ background-color:rgb(237, 245, 128);
      
 }
 div.columna{
-    margin: 10px;
+    margin-left: 8px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 80px ;
+    background-color:rgb(139, 139, 133); 
+    border-radius: 20px;
 }
 .formulario p label{
     min-width: 100px ;
@@ -125,7 +135,7 @@ div.columna{
     align-items: start;
     
 }
-<!--align start se usa para las letras aca empieza que seria mensaje empeza en el cuadro
+<!--align start se usa para las letras aca empieza que seria mensaje donde empieza en el cuadro
 
 .formulario p:nth-child(4){
 align-items:start;
@@ -136,16 +146,17 @@ align-items:start;
     width: 310px;
 }
 .formulario input[type="submit"]{
-    background:rgb(156, 156, 165);
+    background:rgb(74, 74, 201);
     box-shadow: 0 0 10px rgb(223, 218, 217);
-    color: rgb(10, 7, 12);
+    color: rgb(240, 231, 231);
+    text-shadow: 1px 1px white 2px 2px black;
     font-size: 15px;
     padding: 6px 20px;
     width: auto;
     position: relative;
     left: 5rem;
     cursor: pointer;
-    border-radius: 10%;
+    border-radius: 30px;
 }
 <!--cursor es como sale la manito mouse
 

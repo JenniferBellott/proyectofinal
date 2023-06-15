@@ -24,14 +24,12 @@ body {
    background-size: cover;
    background-position: center ;
    box-shadow: 0 0 grey;
-
-
- }
- header{ color: black;
+}
+header{ color: black;
     padding: 10px;
-    margin-left: auto;
- }
- header h1{
+    margin-left: auto;}
+
+header h1{
     color: black;
     font-size: 30px;
     font-style:inherit;
@@ -87,6 +85,7 @@ h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px grey, 0 0 black;
     margin-left: 20px;
+    text-align: center;
 }
 header h4{
     font-family: 'Dancing Script', cursive;
@@ -95,26 +94,24 @@ header h4{
 .bienvenidos{
     
    
-    
-    box-sizing: border-box;
-    background-color: beige;
+    background-color: rgb(236, 228, 116);
     text-align: justify;
     padding: 15px;
+    border-color: 10px 10px darkgrey;
+    box-shadow: 8px 5px 6px rgb(0, 0, 0);
+    border-radius: 10px;
     
 }
 
-.columnas{
-    display:flex;
-    background-color: beige;
-    margin-top: 70px;
-}
 .bienvenidos p{
     font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    
+    margin-left: 10px;
+    margin-right: 20px;   
 }
 
+h3{
+  margin-left: 10px; 
+}
 .right {
    float: right; }
 footer{

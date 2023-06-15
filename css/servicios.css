@@ -55,44 +55,47 @@ body {
      } 
      nav ul li{
         flex-grow: 1;
-     }
-     nav ul li a {
+}
+nav ul li a {
         color: black;
         text-decoration: none;
         padding: 10px 100px;
         display: block;
         text-align:justify;
-    
-     }
-     nav ul li a:hover {
-        background-color:beige ;
-        box-shadow: 1px 1px black, 0 0 grey;
-     }
+    }
+nav ul li a:hover {
+ background-color:beige ;
+ box-shadow: 1px 1px black, 0 0 grey;}
+
      nav ul li a.activo{
         background-color:rgb(236, 142, 35);
         box-shadow: 1px 1px black, 0 0 gray;
      }
-     div.container{
+ div.container{
         background-color: rgb(155, 148, 134);
         box-shadow: 3px 3px grey,4px 4px yellow;
-    }
-    h1{
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       text-shadow: 4px 4px 4px rgb(177, 179, 61),-4px -4px 6px #afa9a9,10px 10px 10px rgb(58, 27, 27);
-       padding-top: 30px;
-    
-    }
-    h2{
-        padding-top: 30px;
-    } 
-    div.row{
+        padding-bottom: 30px;
+        padding-top: 10px;
+        border-radius: 20px;
+ }
+ h1{
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-shadow: 4px 4px 4px rgb(177, 179, 61),-4px -4px 6px #afa9a9,10px 10px 10px rgb(58, 27, 27);
+      padding-top: 1px;
+}
+h2{
+      padding-top: 30px;
+   } 
+div.row{
         background-color: beige;
         box-shadow: 2px 2px grey, 4px 4px rgb(126, 112, 87);
+        border-radius: 10px;
+        padding-bottom: 10px;
     }
     footer{
-        background-color: beige;
+    background-color: beige;
     border-radius: 1px;
     border-color: grey;
-        text-align: center;
+    text-align: center;
     }

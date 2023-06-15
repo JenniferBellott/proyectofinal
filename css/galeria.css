@@ -24,25 +24,13 @@ body {
    background-size: cover;
    background-position: center ;
    box-shadow: 0 0 grey;
-
+ }
+ .holder h1{padding-top: 1px;
+  padding-bottom: 1px;
 
  }
- header{ color: black;
+ header{
     padding: 10px;
-    margin-left: auto;
- }
- header h1{
-    color: black;
-    font-size: 30px;
-    font-style:inherit;
-    display: inline-table;
-    position: relative;
-    bottom: 10px;
-    margin-left: 0px;
-    background-color: rgb(255, 239, 13)
- }
- header h4{
-    font-family: 'Dancing Script', cursive;
  }
  nav { background-color:gold;
     margin: 1px;
@@ -77,23 +65,29 @@ nav ul {
 #caja_principal{
         margin-left: auto;
         margin-right: auto;
+        padding-top: 30px;
+        margin-top: 50px;
+        padding-right: 20px;
         width: 1024px;
-        background-color: bisque;
+        background-color: rgb(109, 90, 78);
+        border-radius: 15px;
         box-shadow: 8px 5px 6px rgb(0, 0, 0);
 }
 .titulo{
    color: rgb(255, 255, 255);
-   text-shadow: 100px 200px 200px black, 0 0 25px rgb(8, 0, 0), 0 0 5px rgb(80, 80, 80);
+   text-shadow: 100px 200px 200px black, 2px 2px rgb(8, 0, 0), 0 0 5px rgb(80, 80, 80);
    font-size: 40px;
    text-align: center;
-   padding: 0px;
+   padding: 10px;
 }
   
 div.galeria {
-    margin: 10px 20px;
+    margin: 22px;
     box-shadow: 0 4px 8px 0 lightgrey, 0 6px 20px 0 coral;
     float:initial;
     width: 1000px;
+    border-radius: 10px;
+    background-color: rgb(229, 228, 162);
   }
   div.foto8{
     margin: 10px 20px;
@@ -108,14 +102,20 @@ div.galeria img{
     height: 300px;
     text-align: center;
 }
+div.foto{
+padding-left: 42px;
+padding-top: 20px;
+}
 div.galeria:hover{
-    border: 1px solid rgb(224, 224, 208);
+    border: 1px solid rgb(238, 225, 111);
     transform: rotate(-3deg);
   }
 
 div.pie{
     text-align: center;
     text-shadow: 3px 3px 6px rgb(156, 153, 153);
+    padding: 10px;
+    padding-bottom: 10px;
    
 }
 .video{
@@ -124,6 +124,7 @@ div.pie{
     align-items: center;
     width: 800px;
     height: 400px;
+    margin-left: 120px;
     
 }
      
